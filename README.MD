@@ -9,8 +9,10 @@
 </p>
 
 <div align="center">
-    <audio src="output/podcast.MP3" controls title="Podcast"></audio>
+    <a href="output/podcast.MP3" onclick="event.preventDefault(); document.getElementById('audioPlayer').play();" title="Podcast">Clique aqui para escutar o podcast</a>
+    <audio id="audioPlayer" src="output/podcast.MP3" title="Podcast"></audio>
 </div>
+
 
 # Projeto Podcast Gerado por I.A.s
 
